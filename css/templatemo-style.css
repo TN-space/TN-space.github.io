@@ -1,4 +1,4 @@
-/* 
+/*
 
 Tinker CSS Template
 
@@ -83,8 +83,8 @@ p {
     z-index: 10000;
     transition: all 0.2s ease-in-out;
     height: 80px;
-    background-color:transparent;  
-    
+    background-color:transparent;
+
     text-align: center;
     line-height: 40px;
 }
@@ -135,7 +135,7 @@ p {
 	text-transform: uppercase;
 	color: #fff!important;
 	transition: all 0.5s;
-	 
+
 }
 .navbar-brand em {
 	font-style: normal;
@@ -394,7 +394,7 @@ bootstrap.min.css:5
 	font-weight: 300;
 	background-color: #fff;
 	padding: 30px;
-	border-radius: 5px;	
+	border-radius: 5px;
 }
 
 .owl-pagination {
@@ -790,7 +790,7 @@ footer .connect-us ul li a:hover {
 
 	#about .service-item {
 		margin-bottom: 80px;
-	} 
+	}
 
 	#portfolio .section-heading {
 		text-align: center;
