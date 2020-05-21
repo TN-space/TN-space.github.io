@@ -398,12 +398,11 @@ bootstrap.min.css:5
 }
 
 .devicon-space {
+  align-content: space-around;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   width: 100%;
-  /* border: 10px; */
-  /* padding: 150px; */
 }
 
 .dev-icon {
