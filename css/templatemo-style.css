@@ -366,13 +366,13 @@ bootstrap.min.css:5
 }
 
 
-#testimonial {
+#skill {
 	background-color: #f7c552;
 	text-align: center;
 	padding: 100px 0px;
 }
 
-#testimonial .testimonials-item h4 {
+#skill .skill-item h4 {
 	color: #fff;
 	font-size: 17px;
 	font-weight: 500;
@@ -381,13 +381,13 @@ bootstrap.min.css:5
 	margin-bottom: 5px;
 }
 
-#testimonial .testimonials-item span {
+#skill .skill-item span {
 	font-size: 13px;
 	color: #fff;
 	letter-spacing: 0.5px;
 }
 
-#testimonial .testimonials-item p {
+#skill .skill-item p {
 	font-size: 16px;
 	color: #9a9a9a;
 	font-style: italic;
@@ -395,6 +395,20 @@ bootstrap.min.css:5
 	background-color: #fff;
 	padding: 30px;
 	border-radius: 5px;
+}
+
+.devicon-space {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  /* border: 10px; */
+  /* padding: 150px; */
+}
+
+.dev-icon {
+  height: 70px !important;
+  width: 70px !important;
 }
 
 .owl-pagination {
