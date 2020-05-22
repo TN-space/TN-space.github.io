@@ -365,6 +365,12 @@ bootstrap.min.css:5
 	padding-right: 70px;
 }
 
+.skill-header {
+  color: #fff;
+  font-size: 35px;
+  margin-top: 0;
+  padding-bottom: 40px;
+}
 
 #skill {
 	background-color: #f7c552;
