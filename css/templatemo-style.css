@@ -58,6 +58,9 @@ p {
 	text-decoration: none;
 	border-radius: 20px;
 }
+.primary-blue-button:hover {
+  opacity: 0.9;
+}
 
 .pop-button h4 {
 	display: inline-block;
@@ -248,7 +251,7 @@ bootstrap.min.css:5
 }
 
 
-#about {
+#resume {
 	padding: 150px 0px;
 	background-image: url(../img/about-bg.jpg);
 	background-repeat: no-repeat;
@@ -256,11 +259,11 @@ bootstrap.min.css:5
 	background-attachment: fixed;
 }
 
-#about .service-item {
+#resume .service-item {
 	text-align: center;
 }
 
-#about .service-item .icon {
+#resume .service-item .icon {
 	width: 110px;
 	height: 110px;
 	display: inline-block;
@@ -271,7 +274,7 @@ bootstrap.min.css:5
 	background-color: #f7c552;
 }
 
-#about .service-item h4 {
+#resume .service-item h4 {
 	margin-bottom: 30px;
 	margin-top: 45px;
 	font-size: 17px;
@@ -365,11 +368,13 @@ bootstrap.min.css:5
 	padding-right: 70px;
 }
 
-.skill-header {
+.skills-header {
+  margin-top: 0px;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
   color: #fff;
-  font-size: 35px;
-  margin-top: 0;
-  padding-bottom: 40px;
+  letter-spacing: 1px;
 }
 
 #skill {
