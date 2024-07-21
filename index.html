@@ -120,7 +120,9 @@ https://templatemo.com/tm-506-tinker
               <!-- <p>[to be added]</p> -->
               <div class="primary-blue-button">
                 <a
-                  onclick="openDocxInNewTab('./resume/ThanhNguyen-resume.docx')"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="./resume/ThanhNguyen-resume.docx"
                   >View</a
                 >
                 <!-- <a href="#" class="scroll-link" data-id="portfolio">continue</a> -->
@@ -1112,14 +1114,3 @@ https://templatemo.com/tm-506-tinker
     </script>
   </body>
 </html>
-
-<script>
-  function openDocxInNewTab(url) {
-    fetch(url)
-      .then((response) => response.blob())
-      .then((blob) => {
-        const fileURL = URL.createObjectURL(blob);
-        window.open(fileURL, "_blank");
-      });
-  }
-</script>
